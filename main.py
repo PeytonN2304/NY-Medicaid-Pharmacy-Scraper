@@ -38,7 +38,7 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
 
     # Loop through each county
     for county in counties:
-        print(f"\n🕵️ Scraping county: {county}")
+        print(f"\nScraping county: {county}")
 
         try:
             # Select the county
@@ -71,8 +71,9 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
             print(f"Extracted {len(pharmacy_divs)} pharmacies from {county.title()}")
 
         except Exception as e:
-            print(f"⚠Error scraping {county}: {e}")
+            print(f"Error scraping {county}: {e}")
             continue
 
 print("\nAll counties saved to", OUTPUT_FILE)
 driver.quit()
+
