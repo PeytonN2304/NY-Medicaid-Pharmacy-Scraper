@@ -10,7 +10,6 @@ Python web scraper to extract pharmacy providers in New York State that accept M
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Usage](#usage)
 - [Output](#output)
 
