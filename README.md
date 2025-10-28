@@ -1,4 +1,5 @@
 # NY Medicaid Pharmacy Scraper
+**All data extracted from https://member.emedny.org/pharmacy/search-locations**
 
 Python web scraper to extract pharmacy providers in New York State that accept Medicaid.
 
